@@ -1,0 +1,40 @@
+.border{
+border: 3px solid black;
+border-radius: 10px;
+
+}
+.flex{
+    display: flex;
+
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.invert{
+    filter:invert(1);
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  ::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c; /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5e5e5e; /* Thumb color */
+    border: 2px solid #2c2c2c; /* Space around the thumb */
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #757575; /* Thumb color when hovered */
+}
